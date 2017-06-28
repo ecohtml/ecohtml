@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECO HTML - ECommerce</title>
+<link href="../../common/css/containers.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/responsive.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/custom-content-styles.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/ui_styles.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../../common/js/resp-nav.js"></script>
+</head>
+
+<body>
+<!-- Header Section -->
+<div class="span12">
+  <div class="span3 align-left"><img src="images/logo.jpg" class="respImg" /></div>
+  <div class="span9 SearchAtRight searchPaddingTop">
+    <input type="text" name="search" class="searchTextfield" placeholder="Search." /> &nbsp;
+    <input type="button" class="btn btn-info round-btn" value="Search" />
+  </div>
+  <div class="clear"></div>
+</div>
+<div class="clear"></div>
+
+<!-- Nav Bar -->
+<div>
+<!-- Normal Nav -->
+  <div class="nav-bar">
+    <ul>
+      <li id="nav-active">Category 01</li>
+      <li>Category 02</li>
+      <li class="dropdown1">Category 03 &nbsp;&nbsp;<i class="fa fa-arrow-circle-down"></i>
+        <ul>
+          <li>Link 01</li>
+          <li>Link 02</li>
+          <li>Link 03</li>
+          <li>Link 04</li>
+        </ul>
+      </li>
+      <li class="dropdown1">Category 04 &nbsp;&nbsp;<i class="fa fa-arrow-circle-down"></i>
+        <ul>
+          <li>Link 01</li>
+          <li>Link 02</li>
+          <li>Link 03</li>
+        </ul>
+      </li>
+      <li>Category 05</li>
+      <div class="clear"></div>
+    </ul>
+  </div>
+  <!-- Responsive Nav -->
+  <div class="responsive">
+  <div class="menubar-toggle disp-none" onClick="closemenu()" id="closemenudiv">Menu Bar Close</div>
+  <div class="menubar-toggle" onClick="openmenu()" id="openmenudiv">Menu Bar Open</div>
+  <div class="resp-nav" id="respnav">
+    <ul>
+      <li>Category 01</li>
+      <li>Category 02</li>
+      <li onClick="closenav()" class="disp-none" id="navelementcl">Category 03 <span class="align-right">-</span></li>
+      <li onClick="openav()" id="navelementop">Category 03 <span class="align-right">+</span></li>
+      <ul id="navin" class="disp-none">
+        <li id="resp-nav-in">Link 01</li>
+        <li id="resp-nav-in">Link 02</li>
+        <li id="resp-nav-in">Link 03</li>
+        <li id="resp-nav-in">Link 04</li>
+      </ul>
+      <li onClick="closenav1()" class="disp-none" id="navelementcl1">Category 04 <span class="align-right">-</span></li>
+      <li onClick="openav1()" id="navelementop1">Category 04 <span class="align-right">+</span></li>
+      <ul id="navin1" class="disp-none">
+        <li id="resp-nav-in">Link 01</li>
+        <li id="resp-nav-in">Link 02</li>
+        <li id="resp-nav-in">Link 03</li>
+      </ul>
+      <li>Category 05</li></li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+<!-- Banner Part -->
+<div class="row span12 searchPadTop">
+  <div class="span_full"><img src="images/banner1.jpg" class="respImg" /></div>
+</div>
+
+<!-- Content Part -->
+<div class="contentPart">
+  <div class="heading_content">LATEST PRODUCTS</div> 
+  <div class="row span12 searchPadTop">
+    <div class="span3 align-left normalLineHeight">
+      <div><img src="images/product.jpg" class="respImg" /></div>
+      <div class="productName">Product Name</div>
+      <div class="productRate">Rs. 1200</div>
+      <div class="productButton"><input type="button" class="btn btn-info" value="Buy Now" /></div>
+    </div>
+    <div class="span3 align-left normalLineHeight">
+      <div><img src="images/product.jpg" class="respImg" /></div>
+      <div class="productName">Product Name</div>
+      <div class="productRate">Rs. 1200</div>
+      <div class="productButton"><input type="button" class="btn btn-info" value="Buy Now" /></div>
+    </div>
+    <div class="span3 align-left normalLineHeight">
+      <div><img src="images/product.jpg" class="respImg" /></div>
+      <div class="productName">Product Name</div>
+      <div class="productRate">Rs. 1200</div>
+      <div class="productButton"><input type="button" class="btn btn-info" value="Buy Now" /></div>
+    </div>
+    <div class="span3 align-left normalLineHeight">
+      <div><img src="images/product.jpg" class="respImg" /></div>
+      <div class="productName">Product Name</div>
+      <div class="productRate">Rs. 1200</div>
+      <div class="productButton"><input type="button" class="btn btn-info" value="Buy Now" /></div>
+    </div>
+  </div> 
+</div>
+
+
+<div class="contentPart">
+  <div class="heading_content">LATEST STORIES</div>
+  <div class="row span12 searchPadTop">
+    <div class="span4 align-left">
+      <div class="featuredPostDiv">
+       <div class="featuredPost">Top Products</div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+     </div>
+    </div>
+    <div class="span4 align-left">
+      <div class="featuredPostDiv">
+       <div class="featuredPost">Top Products</div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+     </div>
+    </div>
+    <div class="span4 align-left">
+      <div class="featuredPostDiv">
+       <div class="featuredPost">Top Products</div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+     </div>
+    </div>
+  </div><div class="clear"></div>
+</div>
+
+<!-- Footer -->
+<div class="footerBG">
+  <div class="raw span12">
+    <div class="span3 left-align">
+      <div class="fotterHeading">About Company</div>
+      <div class="footerDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">Useful Links</div>
+      <div class="fotterPoints">
+        <ul>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">&nbsp;</div>
+      <div class="fotterPoints">
+        <ul>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">Get Social With Us</div>
+      <div class="footerSocial">
+        <div class="socialIcon"><i class="fa fa-facebook-square"></i>  - <a href="#">Facebook</a></div>
+        <div class="socialIcon"><i class="fa fa-twitter-square"></i>  - <a href="#">Twitter</a></div>
+        <div class="socialIcon"><i class="fa fa-linkedin-square"></i>  - <a href="#">LinkedIn</a></div>
+        <div class="socialIcon"><i class="fa fa-google-plus-square"></i>  - <a href="#">Google +</a></div>
+      </div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">Offce Address</div>
+      <div class="address-div">
+             <address>
+                <strong>Twitter, Inc.</strong><br>
+                795 Folsom Ave, Suite 600<br>
+                San Francisco, CA 94107<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890
+             </address>
+ 
+             <address>
+               <strong>Full Name</strong><br>
+               <a href="mailto:#">first.last@gmail.com</a>
+             </address>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="bottomFooter">Copyright Company Name | 2016 - ECO HTML</div>
+</div><div class="clear"></div>
+
+</body>
+</html>
