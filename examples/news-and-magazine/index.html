@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECO HTML - News & Magazine</title>
+<link href="../../common/css/containers.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/responsive.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/custom-content-styles.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/ui_styles.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="../../common/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="css/basic.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../../common/js/resp-nav.js"></script>
+</head>
+
+<body>
+<!-- Header Section -->
+<div class="topBg">
+<div class="row span12">
+  <div class="span6 align-left">
+    <ul class="topMenu">
+      <li><a href="#">Link 1</a></li>
+      <li><a href="#">Link 2</a></li>
+      <li><a href="#">Link 3</a></li>
+      <li><a href="#">Link 4</a></li>
+    </ul>
+  </div>
+  <div class="span6 align-left searchPadTop">
+    <input type="text" name="search" class="searchTextfield" placeholder="Search." /> &nbsp;
+    <input type="button" class="btn btn-info round-btn" value="Search" />
+  </div>
+  <div class="clear"></div>
+</div><div class="clear"></div>
+</div>
+
+<div class="row span12">
+  <div class="span3 align-left"><img src="images/logo.jpg" class="respImg" /></div>
+  <div class="span9 align-right"><img src="images/resp-ads.jpg" class="respImg" /></div>
+  <div class="clear"></div>
+</div>
+<div class="clear"></div>
+<!-- Nav Bar -->
+<div>
+<!-- Normal Nav -->
+  <div class="nav-bar">
+    <ul>
+      <li id="nav-active"><i class="fa fa-desktop"></i> Techology</li>
+      <li><i class="fa fa-lightbulb-o"></i> Energy</li>
+      <li class="dropdown1"><i class="fa fa-space-shuttle"></i> Space &nbsp;&nbsp;<i class="fa fa-arrow-circle-down"></i>
+        <ul>
+          <li>Link 01</li>
+          <li>Link 02</li>
+          <li>Link 03</li>
+          <li>Link 04</li>
+        </ul>
+      </li>
+      <li class="dropdown1"><i class="fa fa-medkit"></i> Medicine &nbsp;&nbsp;<i class="fa fa-arrow-circle-down"></i>
+        <ul>
+          <li>Link 01</li>
+          <li>Link 02</li>
+          <li>Link 03</li>
+        </ul>
+      </li>
+      <li><i class="fa fa-recycle"></i> Recyle</li>
+      <div class="clear"></div>
+    </ul>
+  </div>
+  <!-- Responsive Nav -->
+  <div class="responsive">
+  <div class="menubar-toggle disp-none" onClick="closemenu()" id="closemenudiv">Menu Bar Close</div>
+  <div class="menubar-toggle" onClick="openmenu()" id="openmenudiv">Menu Bar Open</div>
+  <div class="resp-nav" id="respnav">
+    <ul>
+      <li><i class="fa fa-desktop"></i> Techology</li>
+      <li><i class="fa fa-lightbulb-o"></i> Energy</li>
+      <li onClick="closenav()" class="disp-none" id="navelementcl"><i class="fa fa-space-shuttle"></i> Space <span class="align-right">-</span></li>
+      <li onClick="openav()" id="navelementop"><i class="fa fa-space-shuttle"></i> Space <span class="align-right">+</span></li>
+      <ul id="navin" class="disp-none">
+        <li id="resp-nav-in">Link 01</li>
+        <li id="resp-nav-in">Link 02</li>
+        <li id="resp-nav-in">Link 03</li>
+        <li id="resp-nav-in">Link 04</li>
+      </ul>
+      <li onClick="closenav1()" class="disp-none" id="navelementcl1"><i class="fa fa-medkit"></i> Medicine <span class="align-right">-</span></li>
+      <li onClick="openav1()" id="navelementop1"><i class="fa fa-medkit"></i> Medicine <span class="align-right">+</span></li>
+      <ul id="navin1" class="disp-none">
+        <li id="resp-nav-in">Link 01</li>
+        <li id="resp-nav-in">Link 02</li>
+        <li id="resp-nav-in">Link 03</li>
+      </ul>
+      <li><i class="fa fa-recycle"></i> Recyle</li></li>
+    </ul>
+  </div>
+  </div>
+</div>
+
+<!-- Banner Part -->
+<div class="container">
+<div class="row span12 searchPadTop">
+  <div class="span9 align-left"><img src="images/banner.jpg" class="respImg" /></div>
+  <div class="span3 align-left">
+    <div><img src="images/other.jpg" class="respImg" /></div>
+    <div><img src="images/other.jpg" class="respImg" /></div>
+    <div><img src="images/other.jpg" class="respImg" /></div>
+  </div>
+</div><div class="clear"></div>
+</div>
+
+<!-- Content Part -->
+
+
+<div class="contentPart">
+  <div class="heading_content">LATEST STORIES</div>
+  <div class="row span12 searchPadTop">
+    <div class="span8 align-left">
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     <div class="inContentDiv">
+      <div class="contentInLeft"><img src="images/article.jpg" class="respImg" /></div>
+      <div class="contentInRight">
+        <div class="inContentHeading">Article Heading Goes Here</div>
+        <div class="inContentDivInfo"><i class="fa fa-user"></i> By: Username 
+        &nbsp;&nbsp; <i class="fa fa-calendar"></i> On: 4 Aug 2015
+        &nbsp;&nbsp; <i class="fa fa-comments"></i> 9 Comments</div>
+        <div class="inContentDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae impedit beatae, ipsum delectus aperiam nesciunt magni facilis ullam.</div>
+        <div class="postbutton"><input type="button" class="btn btn-info round-btn" value="Read More" /></div>
+      </div>
+     </div>
+     
+     <div class="pagination">
+       <ul>
+         <li>Previous</li>
+         <li>1</li>
+         <li class="paginationActive">2</li>
+         <li>3</li>
+         <li>4</li>
+         <li>Next</li>
+       </ul>
+     </div>
+     
+    </div>
+    <div class="span4 align-left">
+     <div class="socialDiv">
+      <div class="socialIconDiv center-align">
+        <div><i class="fa fa-twitter-square fa-2x twColor"></i></div>
+        <div class="reducePadding">14,456</div>
+        <div class="reducePadding">Followers</div>
+      </div>
+      <div class="socialIconDiv center-align">
+        <div><i class="fa fa-facebook-square fa-2x fbColor"></i></div>
+        <div class="reducePadding">20,909</div>
+        <div class="reducePadding">Likes</div>
+      </div>
+      <div class="socialIconDiv center-align">
+        <div><i class="fa fa-linkedin-square fa-2x lnkColor"></i></div>
+        <div class="reducePadding">56,321</div>
+        <div class="reducePadding">Connections</div>
+      </div>
+     </div>
+     
+     <div class="featuredPostDiv">
+       <div class="featuredPost">Featured Post</div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+       <div class="featuredPostInDiv">
+         <div class="featuredPostInDivLeft"><img src="images/post.jpg" class="respImg" /></div>
+         <div class="featuredPostInDivRight">Lorem Ipsum is simply dummy text of the printing.</div>
+       </div>
+     </div>
+     
+    </div>
+  </div><div class="clear"></div>
+</div>
+
+<!-- Footer -->
+<div class="footerBG">
+  <div class="raw span12">
+    <div class="span3 left-align">
+      <div class="fotterHeading">About Company</div>
+      <div class="footerDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">Useful Links</div>
+      <div class="fotterPoints">
+        <ul>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">&nbsp;</div>
+      <div class="fotterPoints">
+        <ul>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+          <li><a href="#">Footer Link 1</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">Get Social With Us</div>
+      <div class="footerSocial">
+        <div class="socialIcon"><i class="fa fa-facebook-square"></i>  - <a href="#">Facebook</a></div>
+        <div class="socialIcon"><i class="fa fa-twitter-square"></i>  - <a href="#">Twitter</a></div>
+        <div class="socialIcon"><i class="fa fa-linkedin-square"></i>  - <a href="#">LinkedIn</a></div>
+        <div class="socialIcon"><i class="fa fa-google-plus-square"></i>  - <a href="#">Google +</a></div>
+      </div>
+    </div>
+    <div class="span2 align-left">
+      <div class="fotterHeading">Offce Address</div>
+      <div class="address-div">
+             <address>
+                <strong>Twitter, Inc.</strong><br>
+                795 Folsom Ave, Suite 600<br>
+                San Francisco, CA 94107<br>
+                <abbr title="Phone">P:</abbr> (123) 456-7890
+             </address>
+ 
+             <address>
+               <strong>Full Name</strong><br>
+               <a href="mailto:#">first.last@gmail.com</a>
+             </address>
+      </div>
+    </div>
+  </div>
+  <div class="clear"></div>
+  <div class="bottomFooter">Copyright Company Name | 2016 - ECO HTML</div>
+</div><div class="clear"></div>
+
+</body>
+</html>
