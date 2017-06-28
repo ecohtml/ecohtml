@@ -1,0 +1,14 @@
+body{ margin:0px;}
+.arial{ font-family:Arial, Helvetica, sans-serif;font-size:12px;}
+.verdana{ font-family:Verdana, Arial, Helvetica, sans-serif;font-size:12px;}
+.show-grid{ background-color:#eaeaea;}
+.show-grid:hover{ background-color:#e3e3e3;}
+.show-grid1{ background-color:#d2d2d2;}
+.show-grid1:hover{ background-color:#cccccc;}
+.show-grid1{ background-color:#d2d2d2;}
+.show-grid1:hover{ background-color:#cccccc;}
+.show-grid2{ background-color:#b9b9b9;}
+.show-grid2:hover{ background-color:#ababab;}
+.clear{ clear:both;}
+
+/* Custom Styles Starts Here */
