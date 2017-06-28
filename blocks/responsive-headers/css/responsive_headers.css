@@ -1,0 +1,15 @@
+@media (min-width: 768px) and (max-width: 979px) {
+.headerBar01Right{ display:none;}
+.headerBar01MenuMobile{ display:block;float:right;width:60%;padding-top:17px;padding-right:10px;}
+.searchTab{ display:block;float:right;padding-top:25px;padding-left:5px;padding-right:7px;}
+.menuDarkBar{ display:none;}
+.menuDarkBarMobile{ display:block;}
+}
+@media (max-width: 767px) {
+.headerBar01Right{ display:none;}
+.headerBar01Left{ float:none;text-align:center;}
+.headerBar01MenuMobile{ display:block;float:none;text-align:center;padding-top:10px;width:99%;padding-right:10px;}
+.searchTab{ display:block;float:right;padding-top:10px;padding-left:5px;padding-right:7px;padding-bottom:10px;}
+.menuDarkBar{ display:none;}
+.menuDarkBarMobile{ display:block;}
+}
