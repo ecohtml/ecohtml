@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECO HTML - General Assets</title>
+<link href="../common/css/containers.css" rel="stylesheet" type="text/css">
+<link href="../common/css/ui_styles.css" rel="stylesheet" type="text/css">
+<link href="css/responsive_ui.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/menu.js"></script>
+<script type="text/javascript" src="../common/js/slider.js"></script>
+<script type="text/javascript" src="../common/js/collapse.js"></script>
+<script type="text/javascript" src="../common/js/tooltip.js"></script>
+<script type="text/javascript" src="../common/js/tabs.js"></script>
+<script type="text/javascript" src="../common/js/alerts.js"></script>
+<script type="text/javascript" src="../common/js/dialog.js"></script>
+<script type="text/javascript" src="../common/js/notifications.js"></script>
+</head>
+<body class="arial light-grey-bg" onLoad="onload()">
+<!-- Modal Dialog Boxes -->
+<div class="dialogbox-container display-none" id="dialog1">
+<div class="dialog-box">
+  <div class="cross" onClick="closedialog1()">X</div>
+    <div class="dialog-box-in">
+      <div class="dialog-content">
+        <div class="dialog-inhead">Modal Title</div>
+        <div class="dialog-intext">Body content will goes here...</div>
+        <div class="dialog-btns">
+          <button class="btn btn-default round-btn">Cancel</button>
+          <button class="btn btn-success round-btn" onClick="closedialog1()">Save Changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dialogbox-container display-none" id="dialog2">
+<div class="dialog-box">
+    <div class="dialog-box-in">
+      <div class="dialog-content">
+        <div class="dialog-inhead">
+          <div class="modal-inhead-left">Modal Title</div>
+          <div class="modal-inhead-right cursor-pointer" onClick="closedialog2()"><a class="light-grey-link">X</a></div>
+          <div class="clear"></div>
+        </div>
+        <div class="dialog-intext">Body content will goes here...</div>
+        <div class="dialog-btns">
+          <button class="btn btn-default round-btn">Cancel</button>
+          <button class="btn btn-warning round-btn" onClick="closedialog2()">Confirm</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="dialogbox-container display-none" id="dialog3">
+<div class="dialog-box">
+    <div class="dialog-box-in">
+      <div class="dialog-content">
+        <div class="dialog-inhead">
+          <div class="modal-inhead-left">Modal Title</div>
+          <div class="modal-inhead-right cursor-pointer" onClick="closedialog3()"><a class="light-grey-link">X</a></div>
+          <div class="clear"></div>
+        </div>
+        <div class="dialog-intext">Body content will goes here...</div>
+        <div class="dialog-btns">
+          <button class="btn btn-danger round-btn" onClick="closedialog3()">OK!</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End Modal Dialog Boxes -->
+<!-- Notification Containers -->
+<div class="notification-container display-none" id="notification1">
+  <div class="notification1">
+    <div class="notification-cont">This is just a simple notice. Everything is in order and this is a <a href="#">simple link</a>.</div>
+    <div class="notification-cross cursor-pointer" onClick="closenotification1()"><a class="light-grey-link">X</a></div>
+  </div>
+</div>
+<div class="notification-container2 display-none" id="notification2">
+  <div class="notification2">
+    <div class="notification-cont">This is just a simple notice. Everything is in order and this is a <a href="#">simple link</a>.</div>
+    <div class="notification-cross cursor-pointer" onClick="closenotification2()"><a class="light-grey-dark-link">X</a></div>
+  </div>
+</div>
+<div class="notification-container3 display-none" id="notification3">
+  <div class="notification3">
+    <div class="notification-icon"><img src="img/notification-icon.jpg" /></div>
+    <div class="notification-cont1">This is just a simple notice. Everything is in order and this is a <a href="#">simple link</a>.</div>
+    <div class="notification-cross1 cursor-pointer" onClick="closenotification3()"><a class="light-grey-dark-link">X</a></div>
+    <div class="clear"></div>
+  </div>
+</div>
+<div class="notification-container4 display-none" id="notification4">
+  <div class="notification4">
+    <div class="notification-icon-user"><img src="img/user1.jpg"></div>
+    <div class="notification-user-cont"><a href="#">Neha</a> Accepted your invitation</div>
+    <div class="notification-cross2 cursor-pointer" onClick="closenotification4()"><a class="light-grey-dark-link">X</a></div>
+  </div>
+</div>
+<!-- End Notification Containers -->
+ <div class="container white-bg">
+  <div class="row">
+    <div class="span3">
+      <iframe src="menu.html" width="100%" height="900px" scrolling="no" frameborder="no"></iframe>
+    </div>
+    <div class="span9-op">
+      <div class="row">
+        <div class="heading">General Assets</div>
+      </div>
+      <div class="row">
+        <div class="span6 align-left">
+        <!-- Breadcrums -->
+          <div class="heading1">BREADCRUMS</div>
+          <div class="breadcrum">
+            <a href="#">Home</a> <span class="slash">/</span> <a href="#">Dashboard</a> <span class="slash">/</span> Elements
+          </div>
+        <!-- Progress Bars -->
+        <div class="heading1">BASIC PROGRESS BARS</div>
+        <div class="style-text">Please mouseover on the bars.</div>
+        <div class="progress-bars">
+          <div class="bg-bar"><div class="blue-bar sixty animate"></div></div>
+          <div class="bg-bar"><div class="green-bar fifty animate"></div></div>
+          <div class="bg-bar"><div class="light-blue-bar thirty animate"></div></div>
+          <div class="bg-bar"><div class="yellow-bar seventy animate"></div></div>
+          <div class="bg-bar"><div class="red-bar eighty animate"></div></div>
+        </div>
+        <div class="heading1">STRIPED PROGRESS BARS</div>
+        <div class="style-text">Please mouseover on the bars.</div>
+        <div class="progress-bars">
+          <div class="bg-bar"><div class="blue-bar sixty strip-bar"></div></div>
+          <div class="bg-bar"><div class="green-bar fifty strip-bar"></div></div>
+          <div class="bg-bar"><div class="light-blue-bar thirty strip-bar"></div></div>
+          <div class="bg-bar"><div class="yellow-bar seventy strip-bar"></div></div>
+          <div class="bg-bar"><div class="red-bar eighty strip-bar"></div></div>
+        </div>
+        <div class="heading1">ANIMATED PROGRESS BARS</div>
+        <div class="style-text">Please mouseover on the bars.</div>
+        <div class="progress-bars">
+          <div class="bg-bar"><div class="blue-bar sixty strip-bar animate"></div></div>
+          <div class="bg-bar"><div class="green-bar fifty strip-bar animate"></div></div>
+          <div class="bg-bar"><div class="light-blue-bar thirty strip-bar animate"></div></div>
+          <div class="bg-bar"><div class="yellow-bar seventy strip-bar animate"></div></div>
+          <div class="bg-bar"><div class="red-bar eighty strip-bar animate"></div></div>
+        </div>
+        <!-- Collapse Slider -->
+        <div class="heading1">COLLAPSE SLIDER</div>
+        <div class="collpase-panel-div">
+          <div id="flip1"><div class="collapse-panel-head cursor-pointer">COLLAPSIBLE GROUP ITEM #1</div></div>
+          <div id="panel1"><div class="collpase-panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+          <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+          </div>
+          </div>
+          <div id="flip2"><div class="collapse-panel-head cursor-pointer">COLLAPSIBLE GROUP ITEM #2</div></div>
+          <div id="panel2"><div class="collpase-panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+          <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+          </div>
+          </div>
+          <div id="flip3"><div class="collapse-panel-head cursor-pointer">COLLAPSIBLE GROUP ITEM #3</div></div>
+          <div id="panel3"><div class="collpase-panel-body">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo.
+          <p>Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
+          </div>
+          </div>
+        </div>
+        <!-- Tooltips -->
+        <div class="heading1">TOOLTIPS</div>
+        <div class="tooltip-div">
+          <div class="tooltip-indiv">
+             <div class="tooltip-top-div display-none" id="tooltiptop">
+               <div class="tooltip-top">Tooltip on top</div>
+               <div class="tooltip-top-arrow"></div>
+             </div>
+             <button class="btn btn-success btn-medium round-btn" onMouseOver="tooltiptopopen()" onMouseOut="tooltiptopclose()">
+                Tooltip on top
+             </button>
+          </div>
+          <div class="tooltip-indiv">
+            <div class="tooltip-left-div display-none" id="tooltipleft">
+              <div class="tooltip-left">Tooltip on Left</div>
+              <div class="tooltip-left-arrow"></div>
+            </div>
+            <button class="btn btn-success btn-medium round-btn" onMouseOver="tooltipleftopen()" onMouseOut="tooltipleftclose()">Left</button>
+          </div>
+          <div class="tooltip-indiv">
+            <button class="btn btn-success btn-medium round-btn" onMouseOver="tooltipbottomopen()" onMouseOut="tooltipbottomclose()">
+            Bottom</button>
+            <div class="tooltip-bottom-div display-none" id="tooltipbottom">
+              <div class="tooltip-bottom-arrow"></div>
+              <div class="tooltip-bottom">Tooltip on bottom</div>
+            </div>
+          </div>
+          <div class="tooltip-indiv">
+            <button class="btn btn-success btn-medium round-btn" onMouseOver="tooltiprightopen()" onMouseOut="tooltiprightclose()">
+            Right</button>
+            <div class="tooltip-right-div display-none" id="tooltipright">
+              <div class="tooltip-right-arrow"></div>
+              <div class="tooltip-right">Tooltip on Right</div>
+            </div>
+          </div>
+        </div>
+        <div>&nbsp;</div>
+        </div>
+        <div class="span6 align-left">
+          <!-- Tabs -->
+          <div class="heading1">TABS</div>
+          <div class="tabs-div">
+            <div class="tabs-div-head">
+              <div class="tab-head-indiv tabhead-active" id="hometabbtn" onClick="hometab()">Home</div>
+              <div class="tab-head-indiv" id="abouttabbtn" onClick="abouttab()">About</div>
+              <div class="tab-head-indiv" id="profiletabbtn" onClick="profiletab()">Profile</div>
+              <div class="tab-head-indiv" id="contacttabbtn" onClick="contacttab()">Contact</div>
+            </div>
+            <div class="tabs-div-body">
+              <div id="hometab">Home Content will goes here.</div>
+              <div id="abouttab" class="display-none">About Content will goes here.</div>
+              <div id="profiletab" class="display-none">Profile Content will goes here.</div>
+              <div id="contacttab" class="display-none">Contact Content will goes here.</div>
+            </div>
+          </div>
+          <!-- Alert Messages -->
+          <div class="heading1">ALERT MESSAGES</div>
+          <div class="alert-messages-div">
+            <div class="alert-div" id="success">
+              <div class="success-alert">
+                <div class="alert-text"><strong>Well done!</strong> You successfully read this important alert message.</div>
+                <div class="cross-alert cursor-pointer" onClick="closesuccess()">X</div>
+              </div>
+            </div>
+            <div class="alert-div" id="danger">
+              <div class="danger-alert">
+                <div class="alert-text"><strong>Oh snap!</strong> Change a few things up and try submitting again.</div>
+                <div class="cross-alert cursor-pointer" onClick="closedanger()">X</div>
+              </div>
+            </div>
+            <div class="alert-div" id="info">
+              <div class="info-alert">
+                <div class="alert-text"><strong>Heads up!</strong> This alert needs your attention, it's not super important.</div>
+                <div class="cross-alert cursor-pointer" onClick="closeinfo()">X</div>
+              </div>
+            </div>
+            <div class="alert-div" id="warning">
+              <div class="warning-alert">
+                <div class="alert-text"><strong>Warning!</strong> Best check yo self, you're not looking too good.</div>
+                <div class="cross-alert cursor-pointer" onClick="closewarning()">X</div>
+              </div>
+            </div>
+          </div>
+          <!-- Labels -->
+          <div class="heading1">LABELS</div>
+          <div class="labels-div">
+            <label class="default-label">Default</label>
+            <label class="primary-label">Primary</label>
+            <label class="warning-label">Warning</label>
+            <label class="important-label">Important</label>
+            <label class="info-label">Info</label>
+            <label class="inverse-label">Inverse</label>
+          </div>
+          <div class="heading1">MEDIUM LABELS</div>
+          <div class="labels-div">
+            <label class="default-label label-medium">12</label>
+            <label class="primary-label label-medium">14</label>
+            <label class="warning-label label-medium">16</label>
+            <label class="important-label label-medium">18</label>
+            <label class="info-label label-medium">20</label>
+            <label class="inverse-label label-medium">22</label>
+          </div>
+          <div class="heading1">LARGE LABELS</div>
+          <div class="labels-div">
+            <label class="default-label label-large">12</label>
+            <label class="primary-label label-large">14</label>
+            <label class="warning-label label-large">16</label>
+            <label class="important-label label-large">18</label>
+            <label class="info-label label-large">20</label>
+            <label class="inverse-label label-large">22</label>
+          </div>
+          <!-- Dialog Boxes -->
+          <div class="heading1">MODAL DIALOGS</div>
+          <div class="modal-dialog-div">
+          <div class="style-text">Click on below buttons to check it out.</div>
+            <button class="btn btn-success round-btn btn-medium" onClick="opendialog1()">Dialog</button>
+            <button class="btn btn-warning round-btn btn-medium" onClick="opendialog2()">Confirm</button>
+            <button class="btn btn-danger round-btn btn-medium" onClick="opendialog3()">Alert!</button>
+          </div>
+          <div class="heading1">NOTIFICATIONS</div>
+          <div class="style-text">Click on below buttons to check it out.</div>
+          <div class="notification-div">
+            <button class="btn btn-success round-btn btn-medium" onClick="opennotification1()">Default</button>
+            <button class="btn btn-primary round-btn btn-medium" onClick="opennotification2()">Dark at Bottom</button>
+            <button class="btn btn-warning round-btn btn-medium" onClick="opennotification3()">Dark at Top Full</button>
+            <button class="btn btn-info round-btn btn-medium" onClick="opennotification4()">With Thumbnail</button>
+          </div>
+          <div class="heading1">ANIMATED ICONS</div>
+          <div class="gap-top">
+            <i class="fa fa-spinner fa-spin fa-5x"></i>
+            <i class="fa fa-circle-o-notch fa-spin fa-5x"></i>
+            <i class="fa fa-refresh fa-spin fa-5x"></i>
+            <i class="fa fa-cog fa-spin fa-5x"></i>
+            <i class="fa fa-spinner fa-pulse fa-5x"></i>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+ </div>
+</body>
+</html>

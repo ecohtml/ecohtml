@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECO HTML - General Tables</title>
+<link href="../common/css/containers.css" rel="stylesheet" type="text/css">
+<link href="../common/css/ui_styles.css" rel="stylesheet" type="text/css">
+<link href="css/responsive_ui.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/menu.js"></script>
+</head>
+
+<body class="arial light-grey-bg" onLoad="onload()">
+ <div class="container white-bg">
+  <div class="row">
+    <div class="span3">
+      <iframe src="menu.html" width="100%" height="900px" scrolling="no" frameborder="no"></iframe>
+    </div>
+    <div class="span9-op">
+      <div class="row align-left">
+        <div class="heading">Tables</div>
+      </div>
+      <div class="row">
+        <div class="span12 align-left">
+          <!-- General Table Starts -->
+          <div class="heading1">GENERAL TABLE</div>
+          <div class="table-div">
+            <table class="table table-hover" cellpadding="0" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Company</th>
+                  <th>Description</th>
+                  <th>Profit</th>
+                  <th>Status</th>
+                  <th id="border-right-none">Progress</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>ABC Company Ltd.</td>
+                  <td>Lorem Ipsum <abbr><a title="This is Abbreviation">dorolo</a></abbr> imit</td>
+                  <td>$ 45</td>
+                  <td><label class="light-blue-label">Due</label></td>
+                  <td id="border-right-none" width="30%" class="padtop-progressbar"><div class="bg-bar"><div class="blue-bar fifty strip-bar-in animate"></div></div></td>
+                </tr>
+                <tr>
+                  <td>ThemeBucket</td>
+                  <td>Lorem Ipsum dorolo</td>
+                  <td>$ 500</td>
+                  <td><label class="light-red-label">Due</label></td>
+                  <td id="border-right-none" class="padtop-progressbar"><div class="bg-bar"><div class="red-bar twenty strip-bar-in animate"></div></div></td>
+                </tr>
+                <tr>
+                  <td>AVC Ltd</td>
+                  <td>Lorem Ipsum dorolo imit</td>
+                  <td>$ 110</td>
+                  <td><label class="success-label">Paid</label></td>
+                  <td id="border-right-none" class="padtop-progressbar"><div class="bg-bar"><div class="yellow-bar sixty strip-bar-in animate"></div></div></td>
+                </tr>
+                <tr>
+                  <td>Creative Company</td>
+                  <td>Lorem Ipsum dorolo</td>
+                  <td>$ 89</td>
+                  <td><label class="warning-label">Paid</label></td>
+                  <td id="border-right-none" class="padtop-progressbar"><div class="bg-bar"><div class="green-bar ten strip-bar-in animate"></div></div></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="row">
+        <div class="span6 align-left">
+           <div class="heading1">BASIC TABLE</div>
+           <div class="table-div">
+           <table class="table" cellpadding="0" cellspacing="0">
+             <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th>Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Rahul</td>
+                  <td>Gupta</td>
+                  <td>@rahul</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Anoop</td>
+                  <td>Kumar Sharma</td>
+                  <td>@anoopsh</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td>Jatin</td>
+                  <td>Aggarwal</td>
+                  <td>@jatagg</td>
+                </tr>
+              </tbody>
+           </table>
+          </div>
+        </div>
+        <div class="span6 align-left">
+          <div class="heading1">BORDERED TABLE</div>
+          <div class="table-div">
+           <table class="table table-bordered" cellpadding="0" cellspacing="0">
+             <thead>
+                <tr>
+                  <th>#</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  <th id="border-right-none">Username</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>Rahul</td>
+                  <td>Gupta</td>
+                  <td id="border-right-none">@rahul</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Anoop</td>
+                  <td>Kumar Sharma</td>
+                  <td id="border-right-none">@anoopsh</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colspan="2">Jatin The Writer</td>
+                  <td id="border-right-none">@jatagg</td>
+                </tr>
+              </tbody>
+           </table>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="row">
+        <div class="span12 align-left">
+        <div class="heading1">HOVER TABLE</div>
+        <div class="table-div">
+          <table class="table table-hover" cellpadding="0" cellspacing="0">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Username</th>
+                <th>Status</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Anoop</td>
+                <td>Verma</td>
+                <td>anoopver1</td>
+                <td><label class="success-label">Active</label></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Tarun</td>
+                <td>Gupta</td>
+                <td>tarungup1</td>
+                <td><label class="light-red-label">Inactive</label></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Anoop</td>
+                <td>Verma</td>
+                <td>anoopver1</td>
+                <td><label class="warning-label">In Process</label></td>
+              </tr>
+            </tbody>
+          </table>
+         </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+ </div>
+</body>
+</html>

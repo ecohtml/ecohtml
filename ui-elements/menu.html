@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECO HTML - Menu</title>
+<link href="../common/css/containers.css" rel="stylesheet" type="text/css">
+<link href="../common/css/ui_styles.css" rel="stylesheet" type="text/css">
+<link href="../common/css/responsive.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="../common/js/menu.js"></script>
+</head>
+<body class="arial" onLoad="onload()">
+<div class="left-top logo"><div class="logo-class">ECO HTML UI Assets</div></div>
+<div class="left-menu">
+     <ul class="youel list-linehgt">
+       <li id="uiclose" onClick="uieleclose()">
+       <i class="fa fa-book"></i> UI Elements <span class="arrow-close"><img src="img/arrow-close.png" /></span></li>
+       <div class="clear"></div>
+       <li id="uiopen" onClick="uieleopen()">
+       <i class="fa fa-book"></i> UI Elements <span class="arrow-open"><img src="img/arrow-open.png" /></span></li>
+       <div class="clear"></div>
+         <ul class="dark-grey-bg" id="uielem">
+           <a href="general.html" target="_parent"><li>General</li></a>
+           <a href="buttons.html" target="_parent"><li>Buttons</li></a>
+           <a href="typography.html" target="_parent"><li>Typography</li></a>
+         </ul>
+       <a href="fontawesome.html" target="_parent"><li><i class="fa fa-bullhorn"></i> Fontawesome</li></a>
+       <li id="datatableclose" onClick="datatableclose()">
+       <i class="fa fa-th"></i> Data Tables <span class="arrow-close"><img src="img/arrow-close.png" /></span></li>
+       <div class="clear"></div>
+       <li id="datatableopen" onClick="datatableopen()">
+       <i class="fa fa-th"></i> Data Tables <span class="arrow-open"><img src="img/arrow-open.png" /></span></li>
+       <div class="clear"></div>
+         <ul class="dark-grey-bg" id="datatable">
+           <a href="tables.html" target="_parent"><li>Basic Tables</li></a>
+         </ul>
+       <a href="form-components.html" target="_parent"><li><i class="fa fa-tasks"></i> Form Components</li></a>
+       <a href="login.html" target="_parent"><li><i class="fa fa-user"></i> Login Page</li></a>
+     </ul>
+   </div>
+ </body>
+</html>

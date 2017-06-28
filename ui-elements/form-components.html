@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ECO HTML - Form Components</title>
+<link href="../common/css/containers.css" rel="stylesheet" type="text/css">
+<link href="../common/css/ui_styles.css" rel="stylesheet" type="text/css">
+<link href="css/responsive_ui.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="../common/js/menu.js"></script>
+<script type="text/javascript" src="../common/js/detectclick.js"></script>
+<script type="text/javascript" src="../common/js/dropdowns.js"></script>
+</head>
+
+<body class="arial light-grey-bg" onLoad="onload()">
+ <div class="container white-bg">
+  <div class="row">
+    <div class="span3">
+      <iframe src="menu.html" width="100%" height="900px" scrolling="no" frameborder="no"></iframe>
+    </div>
+    <div class="span9-op">
+      <div class="row">
+        <div class="heading">Form Components</div>
+        <div class="span12">
+          <div class="heading1">BASIC FORM</div>
+          <div class="form-components-div">
+            <div class="form-element-div">
+              <div class="form-element-text">Email address</div>
+              <div class="form-element-inputs"><input type="text" name="email" class="textfield" placeHolder="Enter Email" /></div>
+            </div>
+            <div class="form-element-div">
+              <div class="form-element-text">Password</div>
+              <div class="form-element-inputs"><input type="password" name="passoword" class="textfield" placeHolder="Password" /></div>
+            </div>
+            <!--<div class="form-element-div">
+              <div class="form-element-text">File Input</div>
+              <div class="form-element-inputs"><input type="file" /> <br /> 
+                <label class="lable">Example block-level help text here.</label> <br />
+                <input type="checkbox"> Check me out
+              </div>
+            </div>-->
+            <div class="form-element-div">
+              <div class="gap-top"></div>
+              <div class="form-element-inputs"><input type="button" value="Submit" class="btn btn-info btn-medium round-btn" /></div>
+            </div>
+          </div>
+          <div class="heading1">HORIZONTAL FORM</div>
+          <div class="form-components-div">
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Email address</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="email" class="textfield" placeHolder="Enter Email" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Password</div>
+              <div class="form-element-inputs-horizontal"><input type="password" name="passoword" class="textfield" placeHolder="Password" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">&nbsp;</div>
+              <div class="form-element-inputs-horizontal"><input type="checkbox" /> <lable class="lable">Remember Me</lable></div>
+            </div>            
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">&nbsp;</div>
+              <div class="form-element-inputs-horizontal"><input type="button" value="Sign In" class="btn btn-warning btn-medium round-btn" /></div>
+            </div>
+          </div>
+          <div class="heading1">INLINE FORM</div>
+          <div class="form-components-div">
+             <div class="form-element-div-vertical">
+              <div class="form-element-inputs-horizontal-vertical">
+                <input type="text" name="email" class="textfield" placeHolder="Enter Email" />
+              </div>
+            </div>
+            <div class="form-element-div-vertical">
+              <div class="form-element-inputs-horizontal-vertical">
+                <input type="password" name="passoword" class="textfield" placeHolder="Password" />
+              </div>
+            </div>
+            <div class="button-inline">
+              <div class="form-element-inputs-horizontal-vertical">
+                <button class="btn btn-success btn-medium round-btn"><i class="fa fa-user"></i> Sign In</button>
+              </div>
+            </div>
+          </div>
+          <div class="heading1">FORM ELEMENTS</div>
+          <div class="form-components-div">
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Default</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Rounded</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield rounded-textfield" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Focus</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" placeHolder="This is Focused..." class="textfield focus-textfield" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Disabled</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" placeHolder="Disabled input here..." disabled class="textfield disable-icon" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Success</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield_success" value="This is Success" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Warning</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield_warning" value="This is Warning" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Error</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield_error" value="This is Error" /></div>
+            </div>
+          </div>
+          <div class="heading1">FORM ELEMENTS SIZES</div>
+          <div class="form-components-div">
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Large</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield input-lg" value="input-lg" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Default</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield" value="Default" /></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Small</div>
+              <div class="form-element-inputs-horizontal"><input type="text" name="name" class="textfield input-sm" value="input-sm" /></div>
+            </div>
+          </div>
+          <div class="heading1">LIST MENU ELEMENTS SIZES</div>
+          <div class="form-components-div">
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Large</div>
+              <div class="form-element-inputs-horizontal">
+              <select class="selectmenu" id="input-lg">
+                <option>input-lg</option>
+                <option>Default</option>
+                <option>input-sm</option>
+              </select></div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Default</div>
+              <div class="form-element-inputs-horizontal">
+                <select class="selectmenu">
+                  <option>Default</option>
+                  <option>input-lg</option>
+                  <option>input-sm</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-element-div-horizontal">
+              <div class="form-element-text-horizontal">Small</div>
+              <div class="form-element-inputs-horizontal">
+                <select class="selectmenu" id="input-sm">
+                  <option>input-sm</option>
+                  <option>Default</option>
+                  <option>input-lg</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+ </div>
+  <script type="text/javascript" src="../common/js/screenclick.js"></script>
+</body>
+</html>
